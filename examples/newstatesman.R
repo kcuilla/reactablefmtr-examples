@@ -21,5 +21,5 @@ reactable(
   )) %>%
   add_title('Current plans are poorly targeted, meagre, or both', font_size = 41, font_color = '#262626', margin = reactablefmtr::margin(b = -4)) %>%
   add_subtitle("Effect of different proposals on households' disposable income this winter", font_size = 26, font_style = 'normal', font_color = '#535353', font_weight = 'normal', margin = reactablefmtr::margin(b = 22)) %>%
-  add_source(html("Source: Resolution Foundation <img src='https://www.newstatesman.com/wp-content/uploads/sites/2/2021/09/TNS_master_logo.svg' alt='Palmer Penguins' width='130' height='40' style='vertical-align:middle;margin-left:520px'>"), font_size = 20, margin = reactablefmtr::margin(t=20), font_color = '#858585') %>%
+  add_source(html("Source: Resolution Foundation <img src='https://www.newstatesman.com/wp-content/uploads/sites/2/2021/09/TNS_master_logo.svg' alt='New Statesman Logo' width='130' height='40' style='vertical-align:middle;margin-left:520px'>"), font_size = 20, margin = reactablefmtr::margin(t=20), font_color = '#858585') %>%
   google_font("Jost")
